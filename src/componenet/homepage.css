@@ -1,0 +1,53 @@
+.Homepage {
+    text-align: center;
+    height: 100vh;
+    background-image: url('./Screenshot from 2024-04-09 15-45-22.png');
+    background-size: cover; /* Optional: Adjust the background size as needed */
+    background-position: center; /* Optional: Adjust the background position as needed */
+  }
+  
+  .Homepage-header {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+    width: 100%;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .box {
+    width: 45%;
+    height: 500px;
+    border: none; /* Remove border */
+    padding: 20px;
+    color: rgb(255, 255, 255); /* Make text color white */
+    background-color: rgba(45, 46, 40, 0.7); /* Use rgba for background color with transparency */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 12px rgba(121, 114, 114, 0.6); /* Add box-shadow with increased density */
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  .box:hover {
+    transform: translateY(-5px); /* Move the box slightly upwards on hover */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.8); /* Increase shadow on hover */
+  }
+  
+  
+  .box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .box li {
+    margin-bottom: 10px;
+    color: white; /* Make text color white */
+  }
+  
